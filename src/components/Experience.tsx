@@ -29,7 +29,7 @@ const Experience = () => {
           </h2>
           <div className="w-24 h-1 bg-emerald-600 mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Building expertise through meaningful contributions in software development and engineering
+            Building expertise through meaningful contributions in software development and engineering (1+ years)
           </p>
         </div>
 

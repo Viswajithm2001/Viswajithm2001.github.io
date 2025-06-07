@@ -60,7 +60,10 @@ const Achievements = () => {
           {achievements.map((cert, index) => (
             <Card key={index} className="hover:shadow-xl transition-all duration-300 border-0 shadow-lg h-full">
               <CardHeader>
-                <CardTitle className="text-lg text-foreground leading-tight">
+                <CardTitle 
+                  className="text-lg text-foreground leading-tight cursor-pointer hover:text-emerald-600 transition-colors"
+                  onClick={() => window.open(cert.link, '_blank')}
+                >
                   {cert.title}
                 </CardTitle>
                 <CardDescription className="text-emerald-600 font-medium">
