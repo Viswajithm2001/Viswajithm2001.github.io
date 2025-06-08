@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
     react(),
     mode === 'development' && {
       name: 'component-tagger',
-      transform(code, id) {
+      transform(code: string, id: string) {
         return code;
       }
     },
