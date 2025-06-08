@@ -74,14 +74,6 @@ const Achievements = () => {
                 <p className="text-muted-foreground text-sm mb-4 flex-grow">
                   {cert.description}
                 </p>
-                <Button 
-                  variant="outline" 
-                  size="sm"
-                  onClick={() => window.open(cert.link, '_blank')}
-                  className="hover:bg-emerald-600 hover:text-white transition-colors duration-300 mt-auto"
-                >
-                  View Certificate
-                </Button>
               </CardContent>
             </Card>
           ))}
