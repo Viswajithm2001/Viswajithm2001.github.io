@@ -2,28 +2,28 @@
 import React from 'react';
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      title: "Programming Languages",
-      skills: ["C#", "Python", "Java"],
-      color: "bg-blue-100 text-blue-700"
-    },
-    {
-      title: "Frameworks & Platforms",
-      skills: [".NET", "ASP.NET Core"],
-      color: "bg-emerald-100 text-emerald-700"
-    },
-    {
-      title: "Tools & Technologies",
-      skills: ["Git", "APIs", "RESTful Services", "SQL"],
-      color: "bg-purple-100 text-purple-700"
-    },
-    {
-      title: "Specialized Areas",
-      skills: ["Document Processing", "XLSX/DOCX/PPTX/PDF", "Machine Learning", "Data Analysis"],
-      color: "bg-orange-100 text-orange-700"
-    }
-  ];
+const skillCategories = [
+  {
+    title: "Programming Languages",
+    skills: ["C#", "Python", "Java", "TypeScript", "JavaScript"],
+    color: "bg-blue-100 text-blue-700"
+  },
+  {
+    title: "Frameworks & Platforms",
+    skills: [".NET", "ASP.NET Core", "React", "Tailwind CSS", "React Router"],
+    color: "bg-emerald-100 text-emerald-700"
+  },
+  {
+    title: "Tools & Technologies",
+    skills: ["Git", "APIs", "RESTful Services", "SQL", "PostgreSQL", "JWT Authentication", "Postman"],
+    color: "bg-purple-100 text-purple-700"
+  },
+  {
+    title: "Specialized Areas",
+    skills: ["Document Processing (XLSX/DOCX/PPTX/PDF)", "Machine Learning algorithms", "CRUD Operations", "User Authentication & Authorization", "Frontend State Management"],
+    color: "bg-orange-100 text-orange-700"
+  }
+];
 
   return (
     <section id="skills" className="py-20 bg-background">

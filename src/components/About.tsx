@@ -10,15 +10,15 @@ const About = () => {
             About Me
           </h2>
           <div className="w-24 h-1 bg-emerald-600 mx-auto mb-12"></div>
-          
+
           <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
-              As a software developer, I'm driven by a relentless passion for continuous growth and learning. 
+              As a software developer, I'm driven by a relentless passion for continuous growth and learning.
               I thrive on solving complex problems and delivering impactful solutions that go beyond business goals.
             </p>
             <p>
-              My focus is on crafting efficient, user-friendly applications that empower teams and drive 
-              organizational success. Always eager to innovate and collaborate, I'm committed to turning 
+              My focus is on crafting efficient, user-friendly applications that empower teams and drive
+              organizational success. Always eager to innovate and collaborate, I'm committed to turning
               challenges into opportunities for meaningful impact.
             </p>
           </div>
@@ -29,14 +29,15 @@ const About = () => {
               <div className="text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center p-6 rounded-lg bg-emerald-50 hover:shadow-lg transition-shadow duration-300">
-              <div className="text-3xl font-bold text-emerald-600 mb-2">10+</div>
+              <div className="text-3xl font-bold text-emerald-600 mb-2">5+</div>
               <div className="text-muted-foreground">Projects Completed</div>
             </div>
             <div className="text-center p-6 rounded-lg bg-emerald-50 hover:shadow-lg transition-shadow duration-300">
-              <div className="text-3xl font-bold text-emerald-600 mb-2">6+</div>
-              <div className="text-muted-foreground">Certifications</div>
+              <div className="text-1xl font-bold text-emerald-600 mb-2">C#, .NET, Typescript</div>
+              <div className="text-muted-foreground">Core Tech Stack</div>
             </div>
           </div>
+
         </div>
       </div>
     </section>

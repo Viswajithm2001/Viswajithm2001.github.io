@@ -36,6 +36,18 @@ const Achievements = () => {
       description: "Database management and SQL query optimization"
     },
     {
+      title: "Introduction to Programming With C#",
+      platform: "HackerRank",
+      link: "../../public/CourseraEATULCW1UAT6.pdf",
+      description: "Mastered C# fundamentals in .NET, applying OOP principles to build scalable applications while leveraging Microsoft Copilot for enhanced code quality and productivity"
+    },
+    {
+      title: "Foundations of Coding Back-End",
+      platform: "HackerRank",
+      link: "../../public/CourseraXWXU7CFKT5UF.pdf",
+      description: "Learned core back-end development concepts, including problem-solving, algorithm design, and writing efficient, modular code following industry-standard practices."
+    },
+     {
       title: "Basics of Problem Solving",
       platform: "HackerRank",
       link: "https://www.hackerrank.com/certificates/6a7c5021d989",
@@ -60,7 +72,7 @@ const Achievements = () => {
           {achievements.map((cert, index) => (
             <Card key={index} className="hover:shadow-xl transition-all duration-300 border-0 shadow-lg h-full">
               <CardHeader>
-                <CardTitle 
+                <CardTitle
                   className="text-lg text-foreground leading-tight cursor-pointer hover:text-emerald-600 transition-colors"
                   onClick={() => window.open(cert.link, '_blank')}
                 >

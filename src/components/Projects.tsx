@@ -5,20 +5,38 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Github } from 'lucide-react';
 
 const Projects = () => {
-  const projects = [
-    {
-      title: "Heart Disease Prediction",
-      description: "Machine Learning project using Python to predict heart disease with multiple ML algorithms including Logistic Regression, Decision Tree, and Random Forest.",
-      technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Data Visualization"],
-      github: "https://github.com/Viswajith-m/Heart-disease-prediction-ML",
-      features: [
-        "Data preprocessing and feature engineering",
-        "Hyperparameter tuning and model optimization",
-        "Ensemble methods for improved accuracy",
-        "Feature importance visualization"
-      ]
-    }
-  ];
+const projects = [
+  {
+    title: "Heart Disease Prediction",
+    description: "Machine Learning project using Python to predict heart disease with multiple ML algorithms including Logistic Regression, Decision Tree, and Random Forest.",
+    technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Data Visualization"],
+    github: "https://github.com/Viswajithm2001/Heart-disease-prediction-using-ML",
+    features: [
+      "Data preprocessing and feature engineering",
+      "Hyperparameter tuning and model optimization",
+      "Ensemble methods for improved accuracy",
+      "Feature importance visualization"
+    ]
+  },
+  {
+    title: "BlogNest",
+    description: "A full-stack blogging platform built with ASP.NET Core and React (TypeScript). It allows users to create, edit, and delete blog posts, interact through comments and likes, and manage authentication with JWT.",
+    technologies: [
+      "C#", ".NET Core", "Entity Framework Core", "PostgreSQL",
+      "React", "TypeScript", "Tailwind CSS", "Material UI"
+    ],
+    github: "https://github.com/Viswajithm2001/BlogNest", // update if different
+    features: [
+      "User authentication and authorization with JWT",
+      "CRUD operations for posts with tags and images",
+      "Commenting and liking system",
+      "Responsive frontend with React and Tailwind",
+      "Post and comment data fetched via REST API",
+      "Role-based access and privacy settings"
+    ]
+  }
+];
+
 
   return (
     <section id="projects" className="py-20 bg-gradient-to-br from-emerald-50 to-teal-50">
