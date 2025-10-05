@@ -103,7 +103,7 @@ const Contact = () => {
 
         <div className="text-center mt-12 pt-8 border-t border-border">
           <p className="text-muted-foreground">
-            © 2024 Viswajith Mathialagan. Built with passion and attention to detail.
+            © 2025 Viswajith Mathialagan. Built with passion and attention to detail.
           </p>
         </div>
       </div>
